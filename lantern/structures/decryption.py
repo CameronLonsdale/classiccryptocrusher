@@ -28,7 +28,7 @@ class Decryption:
             key: The key which resulted in this decryption
             score: The score of this decryption
         """
-        self.plaintext = plaintext
+        self.plaintext = ''.join(plaintext)
         self.key = key
         self.score = score
 
